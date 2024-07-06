@@ -30,6 +30,7 @@ async function createUser(req, res){
             username,
             password,
         });
+    return res.json(user);
     } catch (error) {
     logger.error(error.message);
     res.status(500).json({
