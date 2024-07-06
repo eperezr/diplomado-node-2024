@@ -4,5 +4,5 @@
  ```
 
  ```bash
- npm install
+ npm install bcrypt
  ```
